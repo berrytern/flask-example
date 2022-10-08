@@ -4,11 +4,8 @@ from pydantic import StrictStr, StrictInt
 from pydantic import BaseModel
 
 class Example(BaseModel):
-    # não faz conversão de tipos(Strict...)
-    nome: StrictStr # campo optional
-    # nome: str # faz conversão para string
+    nome: StrictStr
     idade: Optional[StrictInt] # campo optional
-    # nome: int # faz conversão para inteiro
 
 entrada = {"nome": "pedro"}
 # obj = Example(nome="pedro", idade=23)
