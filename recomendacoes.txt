@@ -1,0 +1,27 @@
+# se utilizar wsl(subsistema linux para windows)
+## instalar extensão WSL
+## habilitar e acessar com o vscode o subsistema
+
+# usar ambientes virtuais
+opções:
+    - venv
+        sudo apt-get install python3-dev
+        sudo apt-get install python3-venv
+
+## oque é um ambiente virtual:
+    R: é uma pasta que o python poderá utilizar, nessa pasta deverá conter as dependências do projeto.
+## criar ambiente virtual
+- python3 -m venv <nome_ambiente>
+## acessando ambiente virtual
+- . <nome_ambiente>/bin/activate
+## instalando bibliotecas no ambiente virtual
+    # estar com ambiente virtual ativo
+    - pip install <lib/biblioteca>
+## saindo do ambiente virtual
+- deactivate
+
+# utilizar extensão Python - (Microsoft)
+## instalar, habilitar
+## selecionar Interpreter - Ctrl + shift + P(linux) ou Ctrl + P(Windows)
+
+
